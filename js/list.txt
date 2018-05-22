@@ -1,0 +1,53 @@
+LISTA1 DE EXERCÍCIOS: 
+(Elabore o fluxograma e o pseudocódigo de um programa que):
+
+1.	Leia a temperatura em graus Celsius e informe o correspondente em Fahrenheit. F=(9*C+160) / 5
+let celsius;
+function temp (cels) {
+    return (9 * cels + 160) / 5
+}
+document.querySelector('textarea').innerText = temp(prompt(celsius)) + ' graus Fahrenheit';
+
+
+2.	Leia 3 números reais e apresente a soma dos quadrados dos mesmos. 
+
+3.	Leia 2 números inteiros i e j apresente o dobra da diferença de i por j.
+
+4.	Calcule o perímetro de uma circunferência. P=2** raio.
+
+5.	Leia um valor qualquer e mostre este valor reajustado em 10%.
+
+6.	Calcular o consumo de um veículo sendo informados: o tempo da viagem em horas, a velocidade média, e a distância percorrida.
+
+7.	Leia 2 números e informe o quadrado do menor e o dobro do maior. Informar caso sejam iguais.
+
+8.	Leia 2 números inteiros e o sinal correspondente à operação aritmética a ser efetuada (+,–,*, ou /) informando o resultado.
+
+9.	Leia 2 notas, informe a média obtida e a situação do aluno. (Se média > 6 o aluno estará  aprovado, se < 4 estará reprovado, entre 4 e 6 ficará de exame).
+
+10.	Leia 3 notas de um aluno e seu percentual de freqüência. Calcule a média e o enquadre na seguinte situação: se média maior ou igual a 6 e presença maior ou igual a 75%, ou ainda, se média maior ou igual a 5 e presença maior ou igual a 85% o aluno estará aprovado, caso contrário reprovado.
+11.	Leia o salário hora, as horas trabalhadas e o percentual de desconto a ser aplicado no cálculo do salário líquido de um trabalhador. O programa deverá informar o salário bruto, o valor a ser descontado e o salário líquido.
+12.	Leia o salário de um funcionário aplicando sobre ele um reajuste conforme tabela abaixo:
+Salário	Reajuste
+< 500	50%
+>=500 e <2000	30%
+>=2000 e < 4000	20%
+>=4000 e <=5000	10%
+13.	Leia um número inteiro entre 0 e 9999, e informe se está na casa da unidade, dezena, centena ou milhar.
+14.	Leia os 3 lados de um triângulo (A, B, e C) e informe se é um triângulo eqüilátero, isósceles ou escaleno ou ainda se não é triângulo.
+Triângulo
+Cada lado deve ser menor que a soma dos outros 2 lados
+3 lados iguais	equilátero
+2 lados iguais	isósceles
+3 lados diferentes	escaleno
+15.	Leia um número inteiro de 1 a 10 e o transforme em algarismo romano.
+16.	Leia o número correspondente a um mês do ano e o escreva por extenso.
+17.	Leia a idade (inteira) de uma pessoa e informe quantos minutos ela já viveu. 
+18.	Leia uma data, mas separadamente: primeiro o dia, depois o mês e por último o ano (com 4 dígitos). O programa deverá informar se a data é válida. (Prever anos bissextos).
+19.	Leia os valores de A, B e C correspondentes aos coeficientes de uma equação do 2º grau informando a solução da mesma.
+20.	Leia o peso, a altura e o sexo de uma pessoa. Calcule o seu IMC dado pela fórmula IMC=peso/altura2, e informe a sua condição segundo a tabela abaixo:
+SEXO = F	CONDIÇÃO	SEXO = M	CONDIÇÃO
+IMC<20	Abaixo Do Peso	IMC<25	Abaixo Do Peso
+IMC>=20 e <=26	Peso Normal	IMC>=25 e <=30	Peso Normal
+IMC>26	Acima Do Peso	IMC>30	Acima Do Peso
+
