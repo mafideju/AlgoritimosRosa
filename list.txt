@@ -1,0 +1,133 @@
+1.	Leia a temperatura em graus Celsius e informe o correspondente em Fahrenheit. F=(9*C+160) / 5
+
+2.	Leia 3 números reais e apresente a soma dos quadrados dos mesmos. 
+
+3.	Leia 2 números inteiros i e j apresente o dobra da diferença de i por j.
+
+4.	Calcule o perímetro de uma circunferência. P=2** raio.
+
+5.	Leia um valor qualquer e mostre este valor reajustado em 10%.
+
+6.	Calcular o consumo de um veículo sendo informados: o tempo da viagem em horas, a velocidade média, e a distância percorrida.
+
+7.	Leia 2 números e informe o quadrado do menor e o dobro do maior. Informar caso sejam iguais.
+
+8.	Leia 2 números inteiros e o sinal correspondente à operação aritmética a ser efetuada (+,–,*, ou /) informando o resultado.
+
+9.	Leia 2 notas, informe a média obtida e a situação do aluno. (Se média > 6 o aluno estará  aprovado, se < 4 estará reprovado, entre 4 e 6 ficará de exame).
+
+10.	Leia 3 notas de um aluno e seu percentual de freqüência. Calcule a média e o enquadre na seguinte situação: se média maior ou igual a 6 e presença maior ou igual a 75%, ou ainda, se média maior ou igual a 5 e presença maior ou igual a 85% o aluno estará aprovado, caso contrário reprovado.
+
+11.	Leia o salário hora, as horas trabalhadas e o percentual de desconto a ser aplicado no cálculo do salário líquido de um trabalhador. O programa deverá informar o salário bruto, o valor a ser descontado e o salário líquido.
+
+12.	Leia o salário de um funcionário aplicando sobre ele um reajuste conforme tabela abaixo:
+Salário	Reajuste
+< 500	50%
+>=500 e <2000	30%
+>=2000 e < 4000	20%
+>=4000 e <=5000	10%
+
+13.	Leia um número inteiro entre 0 e 9999, e informe se está na casa da unidade, dezena, centena ou milhar.
+
+14.	Leia os 3 lados de um triângulo (A, B, e C) e informe se é um triângulo eqüilátero, isósceles ou escaleno ou ainda se não é triângulo.
+Triângulo
+Cada lado deve ser menor que a soma dos outros 2 lados
+3 lados iguais	equilátero
+2 lados iguais	isósceles
+3 lados diferentes	escaleno
+
+15.	Leia um número inteiro de 1 a 10 e o transforme em algarismo romano.
+
+16.	Leia o número correspondente a um mês do ano e o escreva por extenso.
+
+17.	Leia a idade (inteira) de uma pessoa e informe quantos minutos ela já viveu. 
+
+18.	Leia uma data, mas separadamente: primeiro o dia, depois o mês e por último o ano (com 4 dígitos). O programa deverá informar se a data é válida. (Prever anos bissextos).
+
+19.	Leia os valores de A, B e C correspondentes aos coeficientes de uma equação do 2º grau informando a solução da mesma.
+
+20.	Leia o peso, a altura e o sexo de uma pessoa. Calcule o seu IMC dado pela fórmula IMC=peso/altura2, e informe a sua condição segundo a tabela abaixo:
+SEXO = F	CONDIÇÃO	SEXO = M	CONDIÇÃO
+IMC<20	Abaixo Do Peso	IMC<25	Abaixo Do Peso
+IMC>=20 e <=26	Peso Normal	IMC>=25 e <=30	Peso Normal
+IMC>26	Acima Do Peso	IMC>30	Acima Do Peso
+
+.................................................................................................
+Lista de Exercícios 2
+
+1.	Escreva um programa que leia 10 números inteiros e no final apresente a soma e a média de todos.
+
+2.	Escreva um programa que leia números inteiros positivos e negativos até que o número 9999 seja digitado. Quando isto ocorrer informe quantos números foram lidos e a soma deles.
+
+3.	Escreva um programa que leia 4 números quaisquer e informe o maior e o menor deles. Se todos os números forem iguais, informe esta condição. (Não use nenhum método de ordenação). Prever repetição.
+
+4.	Escreva um programa que leia números inteiros no intervalo de 1 até 10 e os converta em algarismos romanos. No final informe quantos números foram convertidos.
+
+5.	Escreva um programa que leia um número inteiro entre 1 e 20 (Solicite novo valor caso isto não ocorra), e informe o fatorial deste número. Prever repetição. 
+Exemplo: Fatorial de 5:
+  5!= 5*4*3*2*1=120
+
+6.	Escreva um programa que leia 10 números quaisquer e apresente a média dos números pares.
+
+7.	Escreva um programa que leia 20 números quaisquer e apresente a soma dos que forem ímpares.
+
+8.	Escreva um programa que leia 2 números, sendo que o primeiro deve ser menor que o segundo. (Caso isto não aconteça solicite novos valores). Como resultado o programa deverá informar todos os números compreendidos no intervalo, identificando com “PIM” aqueles que forem múltiplos de 4). Exemplo: entre os valores 3 e 11 deverão ser apresentados: 3, PIM, 5, 6, 7, PIM, 9, 10, 11.
+
+9.	Escreva um programa que leia 2 números, sendo que o primeiro deve ser menor que o segundo. (Caso isto não aconteça solicite novos valores). Como resultado o programa deverá informar todos os números compreendidos no intervalo que forem ímpares e ao mesmo tempo múltiplos de 3. Exemplo: entre os valores 2 e 14 deverão ser apresentados: 3 e 9.
+
+10.	Escreva um programa que leia 2 números, sendo que o primeiro deve ser menor que o segundo. (Caso isto não aconteça solicite novos valores). Como resultado o programa deverá informar todos os números compreendidos no intervalo que forem múltiplos de 2 e de 3  ao mesmo tempo. Exemplo: entre os valores 2 e 14 deverão ser apresentados: 6 e 12.
+
+11.	Leia 2 números e informe o máximo divisor comum (MDC). Prever repetição.
+
+12.	Escreva um programa que leia um número inteiro ente 1 e 20. (Caso isto não aconteça solicite novo valor). O programa deverá apresentar a série FIBONACCI até o termo especificado pelo inteiro. Exemplo: se o número informado for 9, o programa deverá apresentar: 1, 1, 2, 3, 5, 8, 13, 21, 34.
+
+13.	Dada a seqüência de termos:
+0, -3, 8,-15, 24, -35,48, ...
+Elabore um programa que leia o número de termos e apresente a seqüência acima até o termo solicitado. No exemplo a seqüência foi  apresentada até o 7º termo. 
+
+.............................................................................................
+Lista de Exercícios 3
+
+1.	Escreva um programa que leia dois vetores de 5 números cada. O primeiro só poderá ser preenchido com números ímpares. Os números que forem informados, mas que não satisfizerem esta condição, serão descartados. Já o segundo vetor deverá ser preenchido apenas com números pares, seguindo o mesmo critério. No final apresentar os 2 vetores.
+
+2.	Escreva um programa que leia 10 números quaisquer e os apresente primeiro na ordem original de entrada, e depois nesta ordem: 1º, 3º, 5º, 7º, 9º, 2º, 4º, 6º, 8º e 10º.
+
+3.	Escreva um programa que leia 10 números quaisquer e os apresente primeiro na ordem original de entrada, e depois nesta ordem: 10º, 1º, 9º, 2º, 8º, 3º, 7º, 4º, 6º e 5º.
+
+4.	Escreva um programa que leia 10 números quaisquer e crie um vetor com 20 elementos sendo que cada número do 1º vetor deverá aparecer repetido no 2º vetor. Exemplo: se o primeiro vetor for composto dos números: 1,2,3,4,5,6,7,8,9,10, o segundo vetor será: 1,1,2,2,3,3,4,4,....10,10.
+
+5.	Escreva um programa que leia 8 números e crie um vetor de 16 elementos sendo que o os 8 primeiros elementos do segundo vetor deverão ser iguais aos do primeiro e os restantes 8 elementos do segundo vetor deverão corresponder aos elementos do primeiro vetor em ordem inversa. Exemplo: se o primeiro vetor for composto dos números: 1,2,3,4,5,6,7 e 8, o segundo vetor será: 1,2,3,4,5,6,7,8,8,7,6,5,4,3,2,1.
+
+6.	Escreva um programa que leia 10 números quaisquer e apresente a média dos números de índice par.
+
+7.	Escreva um programa que leia 10 números quaisquer e apresente a média dos números de índice impar.
+
+8.	Escreva um programa que leia 10 palavras. Ordene este vetor e mostre o vetor resultante.
+
+9.	Escreva um programa que gere 3 jogos da megasena, ou seja, 3 séries de 6 números entre 1 e 60, sendo que em cada série não poderá haver repetição.
+
+10.	Escreva um programa que leia um vetor de 10 números inteiros. Em seguida o programa deverá solicitar um outro número que deverá ser procurado entre os números anteriormente digitados, informando se o mesmo foi encontrado (neste caso indique a posição) ou não.
+
+...............................................................................................
+Lista de Exercícios 4
+
+1.	Leia 10 números reais quaisquer e armazene-os num vetor. Ordene os números em ordem decrescente e apresente o vetor ordenado.
+2.	Preencha um vetor com 20 elementos do tipo inteiro. Use a função aleatório do Visualg (faixa de números de 1 até 99). Ordene este vetor em ordem crescente, apresente os dados ordenados. Em seguida monte uma pesquisa binária para pesquisar se os elementos que serão digitados constam ou não do vetor. Quando localizados, informe o índice. Depois de preenchido o vetor permita repetição no processo de busca do valor no vetor gerado..
+3.	Escreva um programa que preencha um vetor com 12 números inteiros gerados aleatoriamente entre 1 e 30. Em seguida o programa deverá solicitar um número para pesquisa que deverá ser procurado entre os números do vetor, informando se o mesmo foi encontrado (neste caso indique a posição) ou não. Use a pesquisa seqüencial.
+4.	Escreva um programa que leia valores inteiros (digitados) e preencha uma matriz 3 x 3. Apresente a matriz resultante (representação matemática tradicional: linha – coluna).
+5.	Escreva um programa que preencha uma matriz 5x 5 com números inteiros aleatórios gerados na faixa de 10 a 50. Apresente então: a matriz resultante, os elementos da diagonal principal e os elementos da diagonal secundária.
+ 			
+			
+			
+
+		
+
+                                         Diagonal secundária	Diagonal principal
+6.	Escreva um programa que leia números inteiros digitados, na faixa de 1 a 20 e preencha uma matriz 3x8.(Descarte os números que estiverem fora da faixa de valores permitada). Crie um vetor de 3 elementos inteiros que deverá conter a soma dos elementos de cada linha da matriz inicial, e um vetor de 8 elementos que deverá conter a soma dos elementos de cada coluna. Apresente a matriz resultante, a soma dos elementos por linha, e a soma dos elementos por coluna.
+7.	Escreva um programa que leia valores inteiros e preencha uma matriz 4x5. Gere então sua matriz transposta. (OBS: Na matriz transposta as linhas passam a ser colunas e as colunas passam a ser linhas).
+8.	Escreva um programa que preencha duas matrizes 3x3 com valores aleatórios gerados na faixa de 1 a 10. Gere então uma terceira matriz que será o resultado da soma das duas primeiras. Apresente então a primeira matriz, ao lado a segunda, e ao lado a matriz soma. 
+9.	Escreva um programa que leia valores inteiros e preencha duas matrizes 3x3. Gere então uma terceira matriz que será o resultado da multiplicação das duas primeiras. Apresente os resultados como no exercício anterior.
+
+
+
+
