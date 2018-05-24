@@ -12,7 +12,7 @@ function calcular(e){
     const converte = parseFloat((9 * principal + 160) / 5);
     
    
-   console.log(converte);
+   document.getElementById('fahrenheit').value = converte;
     
    
 
