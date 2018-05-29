@@ -3,14 +3,66 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Dobro da Diferença</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 <body>
+<!--  3.Leia 2 números inteiros i e j apresente o dobra da diferença de i por j. -->
+    <div class="container">
+        <div>
+            <h4 class="mt-5 pt-5 text-center">Insira Dois Numeros Inteiros e Vamos Calcular o Dobro da Diferença Entre Eles.</h3>
+        </div>
+        <div class="input-group mt-2 pt-5">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                    <i class="fa fa-terminal" aria-hidden="true"></i>
+                </span>
+            </div>
+            <input type="number" id="valorX" class="form-control" placeholder="Insira o Valor X" aria-label="Username" aria-describedby="basic-addon1">            
+            <input type="number" id="valorXDobro" class="form-control" placeholder="Dobro do Valor X" aria-label="Username" aria-describedby="basic-addon1" disabled>
+        </div>
 
-    <script src="main.js"></script>    
+        <div class="input-group mt-2 pt-1">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                    <i class="fa fa-terminal" aria-hidden="true"></i>
+                </span>
+            </div>
+            <input type="number" id="valorY" class="form-control" placeholder="Insira o Valor Y" aria-label="Username" aria-describedby="basic-addon1">            
+            <input type="number" id="valorYDobro" class="form-control" placeholder="Dobro do Valor Y" aria-label="Username" aria-describedby="basic-addon1" disabled>
+        </div>
+
+        <button type="button" id="butone" class="btn btn-info btn-block mt-2">
+            <i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
+            <i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
+            <i class="fa fa-caret-square-o-right mr-5" aria-hidden="true"></i>
+                Calcular Valores
+            <i class="fa fa-caret-square-o-right ml-5" aria-hidden="true"></i>
+            <i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
+            <i class="fa fa-caret-square-o-right" aria-hidden="true"></i>
+        </button>
+
+        <div class="input-group mt-5 pt-1">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">
+                    <i class="fa fa-minus-square" aria-hidden="true"></i>
+                </span>
+            </div>
+            <input type="number" id="diferenca" class="form-control" placeholder="Diferença Entre X e Y" aria-label="Username" aria-describedby="basic-addon1" disabled>            
+            <input type="number" id="dobroDiferenca" class="form-control" placeholder="Dobro da Diferença Entre X e Y" aria-label="Username" aria-describedby="basic-addon1" disabled>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/app.js"></script>    
 </body>
 </html>
